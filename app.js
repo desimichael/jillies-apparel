@@ -20,7 +20,6 @@ document.onclick = () => {
   let openMobile = document.getElementsByClassName('open__mobile-menu')[0];
   let mobileMenu = document.getElementsByClassName('header-mobile')[0];
   let closeMobile = document.getElementsByClassName('header-mobile__close-btn')[0];
-
   
   openMobile.addEventListener('click', () => {
     mobileMenu.classList.add('header-mobile--visible');

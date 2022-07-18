@@ -268,7 +268,7 @@ img {
 	.collection1__product-item
 	.collection1__product-image {
 	display: block;
-	height: 350px;
+	height: 400px;
 	width: 100%;
 }
 .collection1
@@ -786,7 +786,7 @@ img {
 		justify-content: center;
 		background: #000000;
 		cursor: pointer;
-		transition: 0.3s ease-in-out;
+		transition: 0.5s ease-in-out;
 		-webkit-box-shadow: 1px 10px 14px -4px #747474;
 		box-shadow: 1px 10px 14px -4px #747474;
 	}
