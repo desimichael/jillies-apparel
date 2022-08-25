@@ -781,6 +781,7 @@ img {
 	justify-content: center;
 	align-items: center;
 	margin: 0 5px;
+	text-decoration: none;
 	transition: 0.3s;
 }
 .footer .footer__social-links .link:hover {
