@@ -28,31 +28,74 @@
 </head>
 <body>
   <header class="header">
-    <a href="#" class="logo">Jillie's Apparel</a>
-    <div class="menu">
-      <ul>
-        <li>
-          <a href="#">Men</a>
+    <div class="container">
+      <a href="#" class="header__logo">Jillie's Apparel</a>
+      <ul class="header__menu">
+        <li class="header__menu-link header__menu-link--dropdown">
+          <a href="#">
+            Men
+          </a>
+          <ul class="header__dropdown-content">
+            <li class="header__dropdown-link">
+              <a href="#">Shirts</a>
+            </li>
+            <li class="header__dropdown-link">
+              <a href="#">Hats</a>
+            </li>
+            <li class="header__dropdown-link">
+              <a href="#">Shorts</a>
+            </li>
+            <li class="header__dropdown-link">
+              <a href="#">Pants</a>
+            </li>
+          </ul>
         </li>
-        <li>
-          <a href="#">Women</a>
+        <li class="header__menu-link">
+          <a href="#">
+            Women
+          </a>
         </li>
-        <li>
-          <a href="#">Accesories</a>
+        <li class="header__menu-link">
+          <a href="#">
+            Accesories
+          </a>
         </li>
-        <li>
-          <a href="#">Kids</a>
-        </li>
-        <li>
-          <a href="#" class="ghost-menu-btn">Login</a>
-        </li>
-        <li>
-          <a href="#" class="menu-btn">Sign Up</a>
+        <li class="header__menu-link header__menu-link--dropdown">
+          <a href="#">
+            Kids
+          </a>
+          <ul class="header__dropdown-content">
+            <li class="header__dropdown-link">
+              <a href="#">Shirts</a>
+            </li>
+            <li class="header__dropdown-link">
+              <a href="#">Hats</a>
+            </li>
+            <li class="header__dropdown-link">
+              <a href="#">Shorts</a>
+            </li>
+            <li class="header__dropdown-link">
+              <a href="#">Pants</a>
+            </li>
+          </ul>
         </li>
       </ul>
-    </div>
-    <div class="open__mobile-menu">
-      <i class="fas fa-bars"></i>
+      <div class="header__accounts">
+        <a href="#" class="header__accounts-link">
+          <i class="fas fa-user"></i>
+        </a>
+        <a href="#" class="header__accounts-link">
+          <i class="fas fa-heart"></i>
+        </a>
+        <a href="#" class="header__accounts-link">
+          <i class="fas fa-shopping-bag"></i>
+        </a>
+        <!-- <a href="#" class="header__accounts-btn">Login</a>
+        <a href="#" class="menu-btn">Sign Up</a> -->
+      </div>
+      <div class="open__mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
     </div>
   </header>
   <!-- Mobile Header Start -->
@@ -67,9 +110,9 @@
           </div>
         </div>
         <div class="header-mobile__content">
-          <ul class="mobile-nav">
+          <ul class="mobile-menu">
             <li>
-              <a href="#men" class="nav-link dropdown">Men</a>
+              <a href="#men" class="mobile-link">Men</a>
               <div class="sub-menu">
                 <a href="#" class="sub-link">Shirts</a>
                 <a href="#" class="sub-link">Hats</a>
@@ -78,7 +121,7 @@
               </div>
             </li>
             <li>
-              <a href="#kids" class="nav-link dropdown">Kids</a>
+              <a href="#women" class="mobile-link">Women</a>
               <div class="sub-menu">
                 <a href="#" class="sub-link">Skirts</a>
                 <a href="#" class="sub-link">Hats</a>
@@ -87,7 +130,7 @@
               </div>
             </li>
             <li>
-              <a href="#accesories" class="nav-link dropdown">Accesories</a>
+              <a href="#accesories" class="mobile-link">Accesories</a>
               <div class="sub-menu">
                 <a href="#" class="sub-link">Skirts</a>
                 <a href="#" class="sub-link">Hats</a>
@@ -96,7 +139,7 @@
               </div>
             </li>
             <li>
-              <a href="#men" class="nav-link dropdown">Women</a>
+              <a href="#kids" class="mobile-link">Kids</a>
               <div class="sub-menu">
                 <a href="#" class="sub-link">Skirts</a>
                 <a href="#" class="sub-link">Hats</a>
@@ -181,7 +224,7 @@
               </div>
               <div class="product-info__center">
                 <span class="product-info__price">
-                  $70.00
+                  $40.00
                 </span>
                 <span class="product-info__sale">
                   Summer Sale
@@ -213,7 +256,7 @@
               </div>
               <div class="product-info__center">
                 <span class="product-info__price">
-                  $70.00
+                  $50.00
                 </span>
                 <span class="product-info__sale">
                   Summer Sale
@@ -280,11 +323,11 @@
             <span class="collection3__product-info">
               <div class="info">
                 <span class="info__title">
-                  Fitted
+                  Hats
                 </span>
                 <div class="info__bottom">
                   <span class="info__price">
-                    $70.00
+                    $40.00
                   </span>
                   <span class="info__cart">
                     <i class="fas fa-shopping-cart"></i>
@@ -306,7 +349,7 @@
             <span class="collection3__product-info">
               <div class="info">
                 <span class="info__title">
-                  Fitted
+                  Glasses
                 </span>
                 <div class="info__bottom">
                   <span class="info__price">
@@ -332,11 +375,37 @@
             <span class="collection3__product-info">
               <div class="info">
                 <span class="info__title">
-                  Fitted
+                  Earrings
                 </span>
                 <div class="info__bottom">
                   <span class="info__price">
-                    $70.00
+                    $55.00
+                  </span>
+                  <span class="info__cart">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
+                </div>
+              </div>
+            </span>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a href="#"
+             class="collection3__product-item">
+            <div class="circle-bg">
+              <div class="product-item__image">
+                <img src="/images/access1-img.png"
+                     alt="product image">
+              </div>
+            </div>
+            <span class="collection3__product-info">
+              <div class="info">
+                <span class="info__title">
+                  Hats
+                </span>
+                <div class="info__bottom">
+                  <span class="info__price">
+                    $40.00
                   </span>
                   <span class="info__cart">
                     <i class="fas fa-shopping-cart"></i>
