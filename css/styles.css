@@ -1350,7 +1350,7 @@ img {
     width: 100%;
   }
   .home .home__info-section .home__info-title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .home__image-section {
     display: none;
@@ -1473,9 +1473,6 @@ img {
 
 /* Extra Small devices (portrait tablets and small phones, 375px) */
 @media (max-width: 375px) {
-	.home .home__info-section .home__info-title {
-		font-size: 4rem;
-	}
 	.section-title {
 		font-size: 2.7rem;
 	}
