@@ -815,7 +815,7 @@ img {
 
 /* Medium devices (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
-	.header .logo {
+	.header .header__logo {
 		font-size: 2rem;
 	}
 	.header .header__menu {
@@ -1217,10 +1217,13 @@ img {
 
 /* Small devices (portrait tablets and small phones, 428px) */
 @media (max-width: 428px) {
-  .header .logo {
+  .header .header__logo {
 		font-size: 2rem;
 	}
-	.header .menu {
+	.header .header__menu {
+		display: none;
+	}
+	.header .header__accounts {
 		display: none;
 	}
   .header .open__mobile-menu {
@@ -1355,13 +1358,13 @@ img {
 	.collection2
 		.collection2__collection-item
 		.collection2__collection-title {
-		font-size: 5rem;
+		font-size: 4rem;
 	}
 	.collection2
 		.collection2__collection-item
 		.collection2__overlay
 		h3 {
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 	.section-title {
 		font-size: 3.2rem;
@@ -1475,16 +1478,5 @@ img {
 	}
 	.section-title {
 		font-size: 2.7rem;
-	}
-	.collection2
-		.collection2__collection-item
-		.collection2__collection-title {
-		font-size: 4rem;
-	}
-	.collection2
-		.collection2__collection-item
-		.collection2__overlay
-		h3 {
-		font-size: 3rem;
 	}
 }
