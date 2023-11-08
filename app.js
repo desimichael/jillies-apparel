@@ -29,6 +29,7 @@ document.onclick = () => {
   });
 }
 
+// Product Rating
 
 
 // Footer Mobile Menu
